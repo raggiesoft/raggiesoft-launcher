@@ -1,0 +1,5 @@
+# RaggieSoft Launcher (https://launcher.raggiesoft.com)
+User-agent: *
+Allow: /
+
+Sitemap: https://launcher.raggiesoft.com/sitemap.xml

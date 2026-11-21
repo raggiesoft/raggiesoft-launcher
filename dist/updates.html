@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Declare support for both Light and Dark OS color schemes before first paint -->
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      try {
+        var savedScheme = localStorage.getItem('color-scheme');
+        if (savedScheme === 'light' || savedScheme === 'dark') {
+          document.querySelector('meta[name="color-scheme"]').content = savedScheme;
+        }
+      } catch (e) {}
+    </script>
+    <title>One-Click Updates &amp; Safe Uninstalls | RaggieSoft Launcher</title>
+    <meta name="description" content="See how RaggieSoft Launcher and the built-in Software Update Wizard keep your apps current while protecting your saved books, music, and games." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://launcher.raggiesoft.com/updates" />
+    <link rel="icon" type="image/svg+xml" href="https://assets.raggiesoft.com/raggiesoft-launcher/images/launcher-logo.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RaggieSoft Launcher" />
+    <meta property="og:title" content="One-Click Updates &amp; Safe Uninstalls | RaggieSoft Launcher" />
+    <meta property="og:description" content="See how RaggieSoft Launcher and the built-in Software Update Wizard keep your apps current while protecting your saved books, music, and games." />
+    <meta property="og:url" content="https://launcher.raggiesoft.com/updates" />
+    <meta property="og:image" content="https://assets.raggiesoft.com/raggiesoft-launcher/images/og-launcher.jpg" />
+    <meta property="og:image:alt" content="RaggieSoft Launcher — One calm home for Book Reader, The Listening Room, Backstage, and StoreTrainer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="One-Click Updates &amp; Safe Uninstalls | RaggieSoft Launcher" />
+    <meta name="twitter:description" content="See how RaggieSoft Launcher and the built-in Software Update Wizard keep your apps current while protecting your saved books, music, and games." />
+    <meta name="twitter:image" content="https://assets.raggiesoft.com/raggiesoft-launcher/images/og-launcher.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"SoftwareApplication","@id":"https://launcher.raggiesoft.com/#software","name":"RaggieSoft Launcher","url":"https://launcher.raggiesoft.com/","applicationCategory":"UtilitiesApplication, MultimediaApplication","operatingSystem":"Windows","softwareVersion":"1.0.0","license":"https://opensource.org/licenses/MIT","author":{"@type":"Person","@id":"https://michaelpragsdale.com/#michael-ragsdale","name":"Michael P. Ragsdale","url":"https://michaelpragsdale.com"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"WebSite","@id":"https://launcher.raggiesoft.com/#website","url":"https://launcher.raggiesoft.com/","name":"RaggieSoft Launcher Portal"},{"@type":"WebPage","@id":"https://launcher.raggiesoft.com/updates#webpage","url":"https://launcher.raggiesoft.com/updates","name":"One-Click Updates & Safe Uninstalls | RaggieSoft Launcher","description":"See how RaggieSoft Launcher and the built-in Software Update Wizard keep your apps current while protecting your saved books, music, and games.","isPartOf":{"@id":"https://launcher.raggiesoft.com/#website"},"about":{"@id":"https://launcher.raggiesoft.com/#software"}}]}</script>
+    <link rel="stylesheet" href="https://assets.raggiesoft.com/common/css/raggiesoft-network.css?v=20261121a" />
+    <!-- Google Analytics 4 (GA4) Telemetry Integration (G-P9RG9JVYB6) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9RG9JVYB6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-P9RG9JVYB6');
+    </script>
+    <script type="module" crossorigin src="/assets/index-CcpO6cGQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CW2aj12B.css">
+  </head>
+  <body>
+    <a href="#main-content" class="fl-skip-link">Skip to main content</a>
+
+    <nav class="rs-network-bar" aria-label="RaggieSoft Ecosystem Network">
+      <div class="rs-network-bar-inner">
+        <span class="rs-network-label">✦ RaggieSoft Network:</span>
+        <ul class="rs-network-links">
+          <li><a href="https://raggiesoft.com">🌐 Hub</a></li>
+          <li><a href="https://launcher.raggiesoft.com" aria-current="page" class="is-active">🚀 Desktop Apps</a></li>
+          <li><a href="https://books.raggiesoft.com">📚 Books</a></li>
+          <li><a href="https://music.raggiesoft.com">🎧 Music</a></li>
+          <li><a href="https://waystation.raggiesoft.com">🔮 Directory</a></li>
+          <li><a href="https://jessica.raggiesoft.com">🛡️ Jessica</a></li>
+          <li><a href="https://michaelpragsdale.com">👔 Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="launcher-app">
+    <header class="fl-header">
+      <div class="fl-container fl-header-inner">
+        <a href="/" data-local-nav="true" class="fl-brand">
+          <img src="https://assets.raggiesoft.com/raggiesoft-launcher/images/launcher-logo.svg" alt="" width="40" height="40" class="fl-brand-icon" />
+          <span>
+            <span class="fl-brand-title">RaggieSoft Launcher</span>
+            <span class="fl-brand-sub">Desktop App Hub for Books, Music &amp; Games</span>
+          </span>
+        </a>
+
+        <div class="fl-nav-cluster">
+          <nav aria-label="RaggieSoft Launcher Navigation">
+            <ul class="fl-nav-list">
+              <li><a href="/" data-local-nav="true" class="fl-nav-link">Overview</a></li>
+              <li><a href="/apps" data-local-nav="true" class="fl-nav-link">Included Apps</a></li>
+              <li><a href="/updates" data-local-nav="true" class="fl-nav-link" aria-current="page">Easy Updates &amp; Safety</a></li>
+              <li><a href="/faq" data-local-nav="true" class="fl-nav-link">Questions &amp; Tips</a></li>
+            </ul>
+          </nav>
+          <button type="button" id="fl-theme-toggle" class="fl-theme-btn" aria-label="Switch between light and dark color scheme">
+            <span id="fl-theme-label">🌓 Theme</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="fl-main" tabindex="-1">
+      <div class="fl-container">
+        
+    <section class="fl-section" aria-labelledby="updates-heading">
+      <div class="fl-section-head">
+        <span class="fl-eyebrow"><span aria-hidden="true">🔄</span> Built-In Software Update Wizard</span>
+        <h1 id="updates-heading" style="margin: 0 0 0.4rem; font-size: clamp(1.75rem, 3vw, 2.3rem);">Effortless Updates That Respect Your Computer &amp; Files</h1>
+        <p>Whether you install one RaggieSoft app or the whole family, keeping up with new features is always on your schedule.</p>
+      </div>
+
+      <div class="fl-grid-3" style="margin-bottom: 2rem;">
+        
+          <fluent-card class="fl-card">
+            <div>
+              <h3><span aria-hidden="true">🔄 </span>Shared Software Update Wizard</h3>
+              <p>Click &quot;Check for Updates&quot; inside RaggieSoft Launcher—or inside the About window of any RaggieSoft app—to check all of your installed RaggieSoft apps in one step.</p>
+            </div>
+          </fluent-card>
+
+          <fluent-card class="fl-card">
+            <div>
+              <h3><span aria-hidden="true">🪄 </span>Step-by-Step or One-Click Quiet Mode</h3>
+              <p>Prefer seeing every setup screen? Leave Quick Install unchecked. Prefer updating in a single click? Turn on Quick Install inside Launcher for smooth, hands-free updates.</p>
+            </div>
+          </fluent-card>
+
+          <fluent-card class="fl-card">
+            <div>
+              <h3><span aria-hidden="true">👤 </span>Works With or Without Administrator Access</h3>
+              <p>Install for everyone on a family PC, or choose &quot;Install for me only&quot; to set up RaggieSoft apps inside your personal account folder with zero administrator password prompts.</p>
+            </div>
+          </fluent-card>
+      </div>
+
+      <fluent-card class="fl-card">
+        <div>
+          <h2>Express Setup vs. Custom Setup — Your Choice Every Time</h2>
+          <p>
+            Inspired by classic desktop setup wizards that respected power users while staying effortless for newcomers,
+            every RaggieSoft installer offers two clear paths right after the open-culture license screen:
+          </p>
+          <ul class="fl-feature-list">
+            <li><strong>Express Setup (Recommended):</strong> Skips straight to installing with standard Start Menu shortcuts and default settings in a single click.</li>
+            <li><strong>Custom Setup:</strong> Lets you pick a custom installation folder, choose Desktop &amp; Start Menu shortcuts, pre-load offline books, or customize double-click behavior in StoreTrainer.</li>
+            <li><strong>Thoughtful Uninstaller:</strong> Uninstalling RaggieSoft Launcher even shows a live checklist of your other installed RaggieSoft apps—with every data-removal box unchecked by default so you never lose books, music, or game profiles by mistake!</li>
+          </ul>
+        </div>
+        <div class="fl-btn-row">
+          <a href="/faq" data-local-nav="true" class="fl-btn-primary">Read Common Questions &amp; Tips →</a>
+          <a href="https://waystation.raggiesoft.com/realms" class="fl-btn-secondary">🔮 Browse Full RaggieSoft Directory</a>
+        </div>
+      </fluent-card>
+    </section>
+      </div>
+    </main>
+
+    <footer class="fl-footer">
+      <div class="fl-container">
+        <div class="fl-btn-row" style="justify-content: space-between;">
+          <div>
+            <strong>RaggieSoft Launcher</strong> • Companion web portals:
+            <a href="https://raggiesoft.com">RaggieSoft Home</a> •
+            <a href="https://waystation.raggiesoft.com/realms">Global Directory (Waystation)</a> •
+            <a href="https://jessica.raggiesoft.com">Project Stories (Jessica)</a> •
+            <a href="https://michaelpragsdale.com">Creator Portfolio</a>
+          </div>
+          <div>
+            Code: <a href="https://opensource.org/licenses/MIT">MIT</a> •
+            Creative Works: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+          </div>
+        </div>
+
+        <div class="fl-disclaimer" role="note" aria-label="Fictitious Persons and Entities Disclaimer">
+          <strong>Work of Fiction Disclaimer:</strong> While <strong>RaggieSoft Launcher</strong> and its companion desktop applications are real software tools created by <strong>Michael P. Ragsdale</strong>, all narrative characters, bands, biographies, universities (including CPI, VDU, The Forgers, and The Crucible), corporations (including OmniCorp, Apex Records, Prairie Coachworks, and Sainte-Claire), transit agencies (BRT, CVTA), in-universe legal filings, and any entity with “LLC”, “Trust”, or “Holdings” in its name across RaggieSoft’s creative works are works of fiction. Any resemblance to actual persons, living or dead, or real-world entities is purely coincidental.
+        </div>
+      </div>
+    </footer></div>
+
+    <script src="https://assets.raggiesoft.com/common/js/raggiesoft-network.js?v=20261121a" defer></script>
+  </body>
+</html>
