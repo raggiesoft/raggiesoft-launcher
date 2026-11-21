@@ -821,7 +821,28 @@ PERFORMANCE OF THIS SOFTWARE.
           </span>
         </a>
 
-        <div class="fl-nav-cluster">
+        <button
+          type="button"
+          class="rs-mobile-header-toggle"
+          data-rs-mobile-toggle
+          data-open-label="Open menu"
+          data-close-label="Close menu"
+          aria-expanded="false"
+          aria-controls="header-navigation-panel"
+          aria-label="Open menu"
+        >
+          <svg class="rs-icon-bars" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true" focusable="false">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="rs-icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true" focusable="false">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <div id="header-navigation-panel" class="fl-nav-cluster" data-rs-collapsible="true">
           <nav aria-label="RaggieSoft Launcher Navigation">
             <ul class="fl-nav-list">
               ${r}
