@@ -1,0 +1,22 @@
+{
+  "name": "raggiesoft-launcher-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RaggieSoft Launcher companion portal (launcher.raggiesoft.com) — Microsoft Fluent UI Web Components (FAST Element) + TypeScript + Vite Static SSG",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --port 4329",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build && node scripts/prerender.mjs",
+    "preview": "vite preview --port 4329"
+  },
+  "dependencies": {
+    "@fluentui/web-components": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

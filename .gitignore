@@ -1,0 +1,5 @@
+node_modules/
+.ssr-temp/
+.DS_Store
+._*
+Thumbs.db
