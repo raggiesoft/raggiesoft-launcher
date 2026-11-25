@@ -365,7 +365,10 @@ export function renderRoute(rawPath: string): { html: string; normalizedPath: st
           </div>
           <div>
             Code: <a href="https://opensource.org/licenses/MIT">MIT</a> •
-            Creative Works: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+            Creative Works: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> •
+            <a href="https://raggiesoft.com/about/privacy">Privacy Policy</a> •
+            <a href="https://raggiesoft.com/about/terms">Terms of Service</a> •
+            <a href="https://raggiesoft.com/about/ai-disclaimer">AI &amp; Creative Process | RaggieSoft Governance</a>
           </div>
         </div>
 
