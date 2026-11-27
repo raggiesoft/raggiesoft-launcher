@@ -199,7 +199,7 @@ export interface LauncherFeaturePillar {
 
 export const OVERVIEW_PILLARS: readonly LauncherFeaturePillar[] = [
   {
-    icon: '✨',
+    icon: '🔓',
     title: 'Zero Sign-Ins, Zero Background Bloat',
     body: 'RaggieSoft Launcher only runs when you open it—never sitting in your system tray, never asking for an email account, and never interrupting your day with pop-ups.'
   },
